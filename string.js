@@ -2,7 +2,7 @@ const textSize = 'Text'.length
 console.log(`O número de caracteres da string 'Text' é ${textSize}`)
 
 const splittedText = 'Text'.split('x') 
-console.log(`'Text' splitted em x ${splittedText} `)
+console.log(`'Text' splitted em x, retorna um array, ${splittedText} `)
 
 const replaceText = 'Text'.replace('Text','replaced')
 console.log(`Text substituido ${replaceText}`)
