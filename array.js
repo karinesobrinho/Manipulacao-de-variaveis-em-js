@@ -67,3 +67,12 @@ const totalAge = people.reduce((age, people) =>{
 }, 0)
 //primeiro parametro é a func e o segundo é o valor inicial
 console.log(totalAge)
+
+//juntando operacoes
+const manyOp = people
+ .filter(people => people.age % 2 == 0)
+ .reduce((age, people)=>{
+   age+= people.age
+   return age
+ }, 0)
+console.log(manyOp)
