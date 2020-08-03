@@ -26,4 +26,3 @@ console.log(y >= x)
 
 //menor igual <=
 console.log(x <= y)
-
