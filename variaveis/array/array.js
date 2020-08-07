@@ -1,7 +1,5 @@
 //array tambem é um objeto
 
-const users = ['name1', 'name2', 'name3', 'name4']
-
 const gender = {
   MAN: Symbol('M'),
   WOMAN: Symbol('W'),
@@ -53,14 +51,14 @@ console.log(woman)
 const other = people.filter(people => people.gender === gender.OTHER)
 console.log(other)
 
-//retornar um novo
+//map retornar um novo 
 const course = people.map(people=>{
   people.course = 'bla bla bla'
   return people
 })
 console.log(course)
 
-//transformar array em um outro tipo
+// reduce transformar array em um outro tipo
 const totalAge = people.reduce((age, people) =>{
   age+= people.age
   return age
